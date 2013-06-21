@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sinatra_warden (0.3.2.qs)
+    sinatra_warden (0.3.2.qs2)
       sinatra (>= 1.0.0)
       warden (~> 1.0)
 
