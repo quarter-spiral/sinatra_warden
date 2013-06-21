@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    sinatra_warden (0.3.2)
+    sinatra_warden (0.3.2.qs)
       sinatra (>= 1.0.0)
       warden (~> 1.0)
 
@@ -9,6 +9,7 @@ GEM
   remote: http://rubygems.org/
   specs:
     addressable (2.2.2)
+    backports (3.3.2)
     bcrypt-ruby (2.1.2)
     data_objects (0.10.2)
       addressable (~> 2.1)
@@ -35,12 +36,13 @@ GEM
     rake (0.8.7)
     rcov (0.9.9)
     rspec (1.2.9)
-    sinatra (1.1.0)
-      rack (~> 1.1)
-      tilt (~> 1.1)
-    tilt (1.1)
-    warden (1.0.1)
-      rack (>= 1.0.0)
+    sinatra (1.2.9)
+      backports
+      rack (~> 1.1, < 1.5)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.4.1)
+    warden (1.2.1)
+      rack (>= 1.0)
     yard (0.6.1)
 
 PLATFORMS
