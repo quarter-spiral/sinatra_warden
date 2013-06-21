@@ -17,24 +17,24 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">= 1.3.6"
 
   s.rdoc_options = ["--charset=UTF-8"]
-  
+
   s.add_dependency 'sinatra', '>= 1.0.0'
   s.add_dependency 'warden',  '~> 1.0'
-  
-  s.add_development_dependency 'rspec', '~> 1.2.9'
+
+  s.add_development_dependency 'rspec', '>= 1.2.9'
   s.add_development_dependency 'yard', '>= 0.5.4'
-  s.add_development_dependency 'rack-test', '~> 0.5.0'
+  s.add_development_dependency 'rack-test', '>= 0.5.0'
   s.add_development_dependency 'rcov'
   s.add_development_dependency 'rake'
 
-  s.add_development_dependency 'do_sqlite3', '~> 0.10.0'
-  s.add_development_dependency 'dm-core', '~> 1.0'
+  s.add_development_dependency 'do_sqlite3', '>= 0.10.0'
+  s.add_development_dependency 'dm-core', '>= 1.0'
   s.add_development_dependency 'dm-sqlite-adapter'
   s.add_development_dependency 'dm-migrations'
   s.add_development_dependency 'bcrypt-ruby'
   s.add_development_dependency 'haml'
-  s.add_development_dependency 'rack-flash', '~> 0.1.1'
-  
+  s.add_development_dependency 'rack-flash', '>= 0.1.1'
+
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").map{|f| f =~ /^bin\/(.*)/ ? $1 : nil}.compact
   s.require_path = 'lib'
