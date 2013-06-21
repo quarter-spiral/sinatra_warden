@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.email = %q{justin.smestad@gmail.com}
   s.summary = %q{authentication system for using warden with sinatra}
   s.description = %q{basic helpers and authentication methods for using warden with sinatra also providing some hooks into Rack::Flash}
+  s.homepage      = ""
 
   s.required_rubygems_version = ">= 1.3.6"
 
